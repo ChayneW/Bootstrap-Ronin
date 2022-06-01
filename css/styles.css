@@ -1,0 +1,76 @@
+body{
+  text-align: center;
+}
+
+#title{
+  /* background-color: #cccccc; */
+  /* 275875 */
+  /* color: #fff; */
+
+}
+
+.navbanner{
+  color: #fff;
+}
+
+.details-row{
+  text-align: center;
+}
+
+.background-img{
+  background-size: cover;
+  min-height: 60vh;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+.color-overlay {
+  position: absolute;
+  width:100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.2)
+}
+
+.title-image {
+  width: 90%;
+}
+
+#purpose {
+  background-color: #000000;
+  color: #fff;
+}
+
+/* Quotes section: */
+#mantras {
+
+}
+
+.card-img {
+  background-size: cover;
+  min-height: 60vh;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+.quote-text {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+
+#cta{
+
+}
+
+.social-media-img{
+  width: 20%;
+  margin: 20px 40px;
+}
+
+@media (max-width: 768px) {
+  .background-img {
+    min-height: 30vh;
+}
+}
